@@ -26,3 +26,21 @@ across 100 evaluation games with an average score above 500.
 
 **Value Iteration on Gridworld:**
 
+python gridworld.py -a value -i 100
+
+**Q-Learning on Gridworld:**
+python gridworld.py -a q -k 100
+
+**Train Pacman with Q-Learning:**
+python pacman.py -p PacmanQAgent -x 2000 -n 2010 -l smallGrid
+
+**Run autograder:**
+python autograder.py
+
+## Files I Wrote
+
+- `valueIterationAgents.py` — Value Iteration agent
+- `qlearningAgents.py` — Q-Learning and Approximate Q-Learning agents  
+- `analysis.py` — MDP parameter analysis
+
+All other files are part of the UC Berkeley CS188 course framework.
